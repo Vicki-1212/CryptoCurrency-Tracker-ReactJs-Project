@@ -1,0 +1,60 @@
+/* Write your CSS code here */
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.currency-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-logo {
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+
+.currency-name {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .currency-name {
+    font-size: 25px;
+  }
+}
+
+.currency-value-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width:200px;
+}
+
+.usd-value {
+  font-size:16px;
+  color:#ffffff;
+}
+
+.euro-value {
+  font-size:16px;
+  color:#ffffff;
+}
+
+
+@media screen and (min-width:768px) {
+  .usd-value {
+    font-size:18px
+  } 
+  .euroValue {
+    font-size:18px;
+  }
+}
